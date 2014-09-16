@@ -1,0 +1,14 @@
+pre_composer_script: |
+    yes '' | pecl install mongo
+
+    cp app/config/parameters.yml.dist app/config/parameters.yml
+    sed -i -e "s/secret:.*/secret: secret/" app/config/parameters.yml
+    sed -i -e "s/mongodb_server:.*/mongodb_server: 'mongodb:\/\/localhost:27017'/" app/config/parameters.yml
+    sed -i -e "s/mongodb_database:.*/mongodb_database: test_database/" app/config/parameters.yml
+    sed -i -e "s/mongodb_password:.*/mongodb_password: ~/" app/config/parameters.yml
+    sed -i -e "s/mongodb_username:.*/mongodb_username: ~/" app/config/parameters.yml
+    sed -i -e "s/new_relic_application_name:.*/new_relic_application_name: ~/" app/config/parameters.yml
+    sed -i -e "s/new_relic_api_key:.*/new_relic_api_key: ~/" app/config/parameters.yml
+
+php_ini: |
+    extension=mongo.so

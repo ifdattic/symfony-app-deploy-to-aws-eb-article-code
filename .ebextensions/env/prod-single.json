@@ -1,0 +1,52 @@
+[
+    {
+        "Namespace": "aws:elasticbeanstalk:environment",
+        "OptionName": "EnvironmentType",
+        "Value": "SingleInstance"
+    },
+    {
+        "Namespace": "aws:autoscaling:launchconfiguration",
+        "OptionName": "EC2KeyName",
+        "Value": "demoapp_prodkey"
+    },
+    {
+        "Namespace": "aws:autoscaling:launchconfiguration",
+        "OptionName": "IamInstanceProfile",
+        "Value": "aws-elasticbeanstalk-ec2-role"
+    },
+    {
+        "Namespace": "aws:autoscaling:launchconfiguration",
+        "OptionName": "InstanceType",
+        "Value": "t2.micro"
+    },
+    {
+        "Namespace": "aws:ec2:vpc",
+        "OptionName": "VPCId",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:ec2:vpc",
+        "OptionName": "Subnets",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:ec2:vpc",
+        "OptionName": "ELBSubnets",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:container:php:phpini",
+        "OptionName": "memory_limit",
+        "Value": "800M"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:container:php:phpini",
+        "OptionName": "document_root",
+        "Value": "/web"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:hostmanager",
+        "OptionName": "LogPublicationControl",
+        "Value": "true"
+    }
+]

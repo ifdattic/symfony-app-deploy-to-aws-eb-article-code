@@ -12,13 +12,13 @@ parameters:
     mailer_password:   ~
 
     locale:            en
-    secret:            Kp4k71mhO7LL9Tc1cwShrqwQ8AzE5p
+    secret:            "%env.secret%"
 
     debug_toolbar:          true
     debug_redirects:        false
     use_assetic_controller: true
 
-    mongodb_server: mongodb://localhost:27017
-    mongodb_database: test_database
-    mongodb_password: ~
-    mongodb_username: ~
+    mongodb_server: "%env.mongodb.server%"
+    mongodb_database: "%env.mongodb.database%"
+    mongodb_password: "%env.mongodb.password%"
+    mongodb_username: "%env.mongodb.username%"

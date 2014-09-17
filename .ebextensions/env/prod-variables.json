@@ -1,0 +1,32 @@
+[
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "APP_ENV",
+        "Value": "prod"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__SECRET",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__MONGODB__SERVER",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__MONGODB__DATABASE",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__MONGODB__PASSWORD",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__MONGODB__USERNAME",
+        "Value": ""
+    }
+]

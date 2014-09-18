@@ -28,5 +28,20 @@
         "Namespace": "aws:elasticbeanstalk:application:environment",
         "OptionName": "SYMFONY__ENV__MONGODB__USERNAME",
         "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__NEW_RELIC__API__KEY",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY__ENV__NEW_RELIC__APPLICATION_NAME",
+        "Value": ""
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "NEW_RELIC_LICENSE_KEY",
+        "Value": ""
     }
 ]

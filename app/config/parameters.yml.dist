@@ -22,3 +22,6 @@ parameters:
     mongodb_database: "%env.mongodb.database%"
     mongodb_password: "%env.mongodb.password%"
     mongodb_username: "%env.mongodb.username%"
+
+    new_relic_application_name: "%env.new_relic.application_name%"
+    new_relic_api_key: "%env.new_relic.api.key%"

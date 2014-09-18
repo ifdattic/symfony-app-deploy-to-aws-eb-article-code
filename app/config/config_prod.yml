@@ -23,3 +23,6 @@ monolog:
             level: debug
         console:
             type:  console
+
+ekino_new_relic:
+    enabled: true

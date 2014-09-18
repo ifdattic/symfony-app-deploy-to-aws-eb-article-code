@@ -79,3 +79,8 @@ doctrine_mongodb:
     document_managers:
         default:
             auto_mapping: true
+
+ekino_new_relic:
+    enabled: false
+    application_name: "%new_relic_application_name%"
+    api_key: "%new_relic_api_key%"

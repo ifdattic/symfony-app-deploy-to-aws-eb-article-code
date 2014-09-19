@@ -1,8 +1,15 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "ifdattic/symfony-deploy-aws-eb-article",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "The code used in http://ifdattic.com/how-to-deploy-symfony-application-to-aws-elasticbeanstalk article",
+    "authors": [
+        {
+            "name": "Andrew (Andrius) Marcinkevicius",
+            "email": "andrew.web@ifdattic.com",
+            "homepage": "http://ifdattic.com"
+        }
+    ],
     "autoload": {
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },

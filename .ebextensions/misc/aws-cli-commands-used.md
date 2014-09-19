@@ -73,9 +73,16 @@ aws elasticbeanstalk update-environment \
 ## To create an IAM role:
 
 ```bash
-aws iam create-instance-profile --instance-profile-name aws-elasticbeanstalk-ec2-role
-aws iam create-role --role-name aws-elasticbeanstalk-ec2-role --assume-role-policy-document file://./.ebxtensions/misc/aws-elasticbeanstalk-ec2-role-trust-policy.json
-aws iam add-role-to-instance-profile --instance-profile-name aws-elasticbeanstalk-ec2-role --role-name aws-elasticbeanstalk-ec2-role
+aws iam create-instance-profile \
+    --instance-profile-name aws-elasticbeanstalk-ec2-role
+
+aws iam create-role \
+    --role-name aws-elasticbeanstalk-ec2-role \
+    --assume-role-policy-document file://./.ebxtensions/misc/aws-elasticbeanstalk-ec2-role-trust-policy.json
+
+aws iam add-role-to-instance-profile \
+    --instance-profile-name aws-elasticbeanstalk-ec2-role \
+    --role-name aws-elasticbeanstalk-ec2-role
 ```
 
 ## To create a user for git aws.push

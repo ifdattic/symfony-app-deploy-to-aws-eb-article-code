@@ -1,1 +1,1 @@
-*/5 * * * * . /opt/elasticbeanstalk/support/envvars && php /var/app/current/app/console --env=$APP_ENV --no-debug acme:hello
+*/5 * * * * . /opt/elasticbeanstalk/support/envvars && php /var/app/current/app/console acme:hello

@@ -1,8 +1,13 @@
 [
     {
         "Namespace": "aws:elasticbeanstalk:application:environment",
-        "OptionName": "APP_ENV",
+        "OptionName": "SYMFONY_ENV",
         "Value": "prod"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "SYMFONY_DEBUG",
+        "Value": "0"
     },
     {
         "Namespace": "aws:elasticbeanstalk:application:environment",

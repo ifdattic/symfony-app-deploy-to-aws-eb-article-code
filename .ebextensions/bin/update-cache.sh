@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i -e "s/\/var\/app\/ondeck/\/var\/app\/current/" app/cache/$APP_ENV/*.php
+sed -i -e "s/\/var\/app\/ondeck/\/var\/app\/current/" app/cache/$SYMFONY_ENV/*.php

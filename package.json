@@ -1,0 +1,28 @@
+{
+  "name": "roosymfony-deploy-aws-eb-articlekfire",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifdattic/symfony-deploy-aws-eb-article.git"
+  },
+  "author": {
+    "name": "Andrew (Andrius) Marcinkevicius",
+    "email": "andrew.web@ifdattic.com",
+    "homepage": "http://ifdattic.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifdattic/symfony-deploy-aws-eb-article/issues"
+  },
+  "homepage": "https://github.com/ifdattic/symfony-deploy-aws-eb-article",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint-stylish": "^1.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "symfony-deploy-aws-eb-articlee",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ifdattic/symfony-deploy-aws-eb-article.git",
+  "authors": [
+    {
+      "name": "Andrew (Andrius) Marcinkevicius",
+      "email": "andrew.web@ifdattic.com",
+      "homepage": "http://ifdattic.com"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
